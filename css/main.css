@@ -1,0 +1,28 @@
+body {
+    padding: 0;
+    margin: 0;
+    background: #d1e3ff;
+  }
+  /*--- navigation bar ---*/
+  .navbar {
+    background:#4287f5;
+  }
+  .nav-link,
+  .navbar-brand {
+    color: #fff;
+    cursor: pointer;
+  }
+  .nav-link:hover {
+    color: #000;
+  }
+
+  .header {
+    left: 50%;
+    position: absolute;
+    top: 15%;
+    transform: translate(-50%, -55%);
+    text-align: center;
+  }
+  .header h1 {
+    color: #000;
+  }
